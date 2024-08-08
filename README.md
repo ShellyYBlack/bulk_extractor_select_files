@@ -1,7 +1,7 @@
 # Run bulk_extractor on select file formats
 This Bash script allows you to exclude some file formats (or files containing a particular string) from a bulk_extractor scan.
 
-##Instructions
+## Instructions
 
 1. Make a copy of the script:
 cp $HOME/born_digital/tools/bulk_extractor_select.sh $HOME/born_digital/daev_XXXX_XXXX/reports/bulk_extractor_select.sh
