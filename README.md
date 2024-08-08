@@ -10,4 +10,4 @@ This Bash script allows you to exclude some file formats (or files containing a 
 5. Run the script.
 6. Make sure there are reports in the b_e directory.
 7. Confirm bulk_extractor ran on all files by opening report.xml and searching for the <provided_filename> tag. The number of occurrences should match the number reported by this command:
-find /Users/borndigital/born_digital/daev_XXXX_XXXX/logical -type f ! \( -iname "*.mp4" -o -iname "*.mov" -iname "*.avi" -iname "*.wmv" -iname "*.webm" -iname "*.flv" \)
+`find /Users/borndigital/born_digital/daev_XXXX_XXXX/logical -type f ! \( -iname "*.mp4" -o -iname "*.mov" -iname "*.avi" -iname "*.wmv" -iname "*.webm" -iname "*.flv" \)`
